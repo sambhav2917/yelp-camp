@@ -22,7 +22,7 @@ const User = require('./models/user')
 const campgroundsroutes = require('./routes/campground')//importing campground routes
 const reviewroute = require('./routes/review')//importing review routes
 const userroute=require('./routes/user') //importing user route
-const dbURL= 'mongodb://127.0.0.1:27017/yelp-camp'
+const dbURL=process.env.DB_URL|| 'mongodb://127.0.0.1:27017/yelp-camp'
 /* 
 process.env.DB_URL
  */
@@ -46,6 +46,8 @@ app.set('views', path.join(__dirname, '/views'));//for changing working director
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'))
 app.use(express.static( path.join(__dirname, 'public')))   // to include javascript of public directory
+
+
 
 const store = MongoStore.create({
   mongoUrl: dbURL,
