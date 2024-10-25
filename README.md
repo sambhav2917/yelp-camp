@@ -17,6 +17,8 @@ Try it -   https://yelp-camp-vitj.onrender.com/
 
 ![login](https://github.com/user-attachments/assets/bb952296-bf45-4e07-874d-278075d2f4cd)
 
+![all campground](https://github.com/user-attachments/assets/0bba7742-e714-4c1c-bf3d-bb0b3eace068)
+
 ![campground 1](https://github.com/user-attachments/assets/cc69ee21-a71a-46b5-8e26-3ed13d3b6764)
 
 
